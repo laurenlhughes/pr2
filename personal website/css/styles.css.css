@@ -1,0 +1,164 @@
+h2{
+	color: pink;
+	font-size: 25px;
+}
+
+p{
+	color: gray;
+	font-weight: 100;
+	font-size: medium;
+	padding-top: 50px;
+}
+
+#copyright{
+	color: salmon;
+	margin: 2px 4px;
+	text-align: center;
+}
+
+.blockquote{
+	background-color: papayawhip;
+	color: black;
+	font-style: italic
+}
+
+h3{
+	color: burlywood;
+	font-weight: lighter;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	position: absolute;
+}
+
+img{
+	border: 5px solid papayawhip;
+	height: auto;
+	max-width: 100%;
+}
+html {   
+	background: white
+}
+
+header {
+	padding: 20px 0px 10px;
+	background:lightblue;
+	width: 100%;
+	min-height: 150px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	
+}
+header h1 {
+	clear: both;
+	padding-left: 25px;
+	margin-bottom: 0px;
+	color: papayawhip;
+
+}
+
+#top-nav {
+	float:right;
+	margin-top: 1%;
+	margin-left: 10%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	position: relative;
+	background: papayawhip;
+	border: 2px solid pink;
+	padding-right: 5px;
+}
+
+#top-nav ul li {
+	display: inline;
+	padding: 10px;
+	text-decoration: dotted;
+	color: papayawhip;
+}
+#top-nav ul li a:hover,
+#top-nav ul li a:focus,
+#top-nav ul li a:active {
+	color:rgb(163, 141, 155);
+	border-bottom: 2px solid palevioletred;
+	text-decoration: underline;
+}
+
+#top-nav ul li a:visited {
+	color:rgb(25, 119, 110) ;
+}
+
+#main{
+	padding: 50px;
+	column-count: 2;
+}
+#footer{
+	padding: 20px;
+	position: fixed;
+}
+#writing{
+	border: 5px solid pink;
+	padding: 10px;
+}
+#current{
+	padding: 50px;
+	column-count: 3;
+}
+#currentheader{
+	color: paleturquoise;
+}
+
+#aboutme{
+	padding: 50px;
+	column-count: 2;
+	
+}
+#contact{
+	padding: 50px;
+	text-align: center;
+	border: 5px solid pink;
+	
+}
+#inspo1{
+	padding: 50px;
+	text-align: center;
+}
+
+#inspo2{
+	padding: 50px;
+	text-align: center;
+}
+
+#personalp1{
+	padding: 50px;
+	column-count: 2;
+}
+
+#personalp2{
+	padding: 50px;
+	column-count: 2;
+}
+
+#worldpic{
+    width: 100%;
+}
+
+
+.li{
+    color:pink;
+}
+
+ul li {
+    text-decoration: pink;
+}
+
+h2::first-letter {
+    font-size: 110%;
+    color: peachpuff;
+}
+
+iframe{
+	margin: 50px;
+	border: 5px solid pink;
+}
